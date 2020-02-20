@@ -1,4 +1,4 @@
-var config = {
+var display = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,
@@ -9,7 +9,7 @@ var config = {
     }
 };
 
-var game = new Phaser.Game(config);
+var game = new Phaser.Game(display);
 
 function preload ()
 {
